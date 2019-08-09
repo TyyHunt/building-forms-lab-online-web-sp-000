@@ -12,7 +12,7 @@ class BandInput extends Component {
     });
   };
 
-  handelSubmit = event => {
+  handleSubmit = event => {
     event.preventDefault();
     this.props.addBand(this.state);
     this.setState({
