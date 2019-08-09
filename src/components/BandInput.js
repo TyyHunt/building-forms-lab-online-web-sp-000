@@ -13,7 +13,11 @@ class BandInput extends Component {
   };
 
   handelSubmit = event => {
-
+    eent.preventDefault();
+    this.props.addBand(this.state);
+    this.setState({
+      name: ''
+    })
   }
   render() {
     return(
