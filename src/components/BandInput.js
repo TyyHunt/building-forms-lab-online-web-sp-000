@@ -19,7 +19,7 @@ class BandInput extends Component {
       name: ''
     })
   }
-  
+
   render() {
     return(
       <div>
